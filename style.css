@@ -1,0 +1,32 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+span{
+    color: indianred;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width:80%;
+}
+.fb-id{
+    text-decoration: none;
+    background-image: linear-gradient(pink,tomato);
+    color:rgba(137, 43, 226, 0.74);
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 5%;
+}
+.first{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
